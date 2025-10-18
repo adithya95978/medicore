@@ -31,3 +31,4 @@ app.include_router(upload_router)
 #2.Asking Query
 app.include_router(ask_router)
 
+app.include_router(ask_with_image.router)
