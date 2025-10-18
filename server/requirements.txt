@@ -28,3 +28,8 @@ tqdm
 
 # Logging (optional but recommended)
 loguru
+
+torch
+transformers
+Pillow
+python-multipart
