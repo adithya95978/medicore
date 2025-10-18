@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware##backend and frontend can com
 from middlewares.exception_handlers import catch_exception_middleware
 from routes.upload_pdfs import router as upload_router
 from routes.ask_question import router as ask_router
-
+from routes.ask_question import router as ask_with_image
 app=FastAPI(title="Medical Assistant API",description="API for Medical Assistant Chatbot")
 
 ##CORS  Setup
